@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Notifications page</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="notification-header">
+      <h3>Notifications <span id="notification-count"></span></h3>
+      <h4 id="mark-all">Mark all as read</h4>
+    </div>
+    <div class="notification-template">
+      <img src="assets/images/avatar-mark-webber.webp" alt="" class="profile-img" width="40">
+      <p class="profile-name">Mark Webber</p>
+      <p class="profile-action">reacted to your recent post</p>
+      <p class="event-description">My first tournament today!</p>
+      <p class="notification-status"></p>
+      <p class="notification-time"> 1m ago</p>
+    </div>
+    <div class="notification-template">
+      <img src="assets/images/avatar-angela-gray.webp" width="40" alt="" class="profile-img">
+      <p class="profile-name">Angela Gray</p>
+      <p class="profile-action">followed you</p>
+      <p class="event-description"></p>
+      <p class="notification-status"></p>
+      <p class="notification-time">5m ago</p>
+    </div>
+    <div class="notification-template">
+      <img src="assets/images/avatar-jacob-thompson.webp" width="40" alt="" class="profile-img">
+      <p class="profile-name">Jacob Thompson</p>
+      <p class="profile-action">has joined your group</p>
+      <p id="group" class="event-description">Chess Club</p>
+      <p class="notification-status"></p>
+      <p class="notification-time">1 day ago</p>
+    </div>
+    <div id="read" class="notification-template">
+      <img src="assets/images/avatar-rizky-hasanuddin.webp" width="40" alt="" class="profile-img">
+      <p class="profile-name"> Rizky Hasanuddin</p>
+      <p class="profile-action">sent you a private message</p>
+      <p class="event-description"></p>
+      <p class="notification-status"></p>
+      <p class="notification-time">5 days ago</p>
+      <p class="notification-message"> Hello, thanks for setting up the Chess Club. I've been a member for a few weeks
+        now and
+        I'm already having lots of fun and improving my game.
+      </p>
+    </div>
+    <div class="notification-template">
+      <img src="assets/images/avatar-kimberly-smith.webp" width="40" alt="" class="profile-img">
+      <p class="profile-name">Kimberly Smith</p>
+      <p class="profile-action">commented on your picture</p>
+      <p class="event-description"></p>
+      <p class="notification-status"></p>
+      <p class="notification-time"> 1 week ago</p>
+      <p class="notification-picture"><img src="assets/images/image-chess.webp" width="40" alt="notification picture"></p>
+    </div>
+    <div class="notification-template">
+      <img src="assets/images/avatar-nathan-peterson.webp" width="40" alt="" class="profile-img">
+      <p class="profile-name"> Nathan Peterson</p>
+      <p class="profile-action">reacted to your recent post</p>
+      <p class="event-description" id="endgame">5 end-game strategies to increase your win rate</p>
+      <p class="notification-status"></p>
+      <p class="notification-time">2 weeks ago</p>
+    </div>
+    <div class="notification-template">
+      <img src="assets/images/avatar-anna-kim.webp" width="40" alt="" class="profile-img">
+      <p class="profile-name">Anna Kim</p>
+      <p class="profile-action">left the group</p>
+      <p id="group" class="event-description"> Chess Club</p>
+      <p class="notification-status"></p>
+      <p class="notification-time"> 2 weeks ago</p>
+    </div>
+
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Enyotronics</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
